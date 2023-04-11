@@ -42,3 +42,22 @@ print(new_find)
 texto_end = "Hola, esto termina en?"
 new_texto_end = texto_end.endswith("?")
 print(new_texto_end)
+
+#CENTER : Se centra por el numero de caracteres que le pasemos al metodo center(20, "E"): EEEEEEEBananaEEEEEEE
+texto_center = "Banana"
+new_center = texto_center.center(20, "E")
+print(new_center)
+
+#ZFILL : Rellena a 10 caracteres numero 0 incluyendo el 15: 0000000015
+factura = "15"
+new_factura = factura.zfill(10)
+print(new_factura)
+
+#SPLIT : Crea una lista y convierte cada palabra en un solo string: ['Welcome', 'to', 'the', 'split', 'method']
+texto_split = "Welcome to the split method"
+new_split = texto_split.split()
+print(new_split)
+
+#JOIN : Une las listas de string en un solo string: Welcome to the split method
+join_text = " ".join(new_split)
+print(join_text)
